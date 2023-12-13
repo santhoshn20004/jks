@@ -1,0 +1,468 @@
+/*
+=========================
+Max width 1200px 
+=========================
+*/
+
+@media(max-width: 1199px) {
+    .nav-section ul li a {
+        padding: 0px 10px;
+    }
+    .banner-item h2 {
+        font-size: 36px;
+    }
+    .banner-item .banner-text-1 {
+        left: 12%;
+        padding: 20px 10px;
+    }
+    .banner-item a {
+        padding: 10px 15px;
+    }
+    .banner-item .banner-text-2 h2 span {
+        font-size: 60px;
+    }
+    .banner-item .banner-text-2 {
+        padding: 5px;
+    }
+    /* About us page */
+    .about-us-text h2 {
+        font-size: 40px;
+    }
+    i.fas.fa-quote-left {
+        position: absolute;
+        top: 70px;
+        left: 0;
+    }
+    #about-us-section {
+        padding-top: 30px;
+    }
+    .about-us-text ul {
+        font-size: 16px;
+    }
+}
+
+
+/*
+=========================
+Min width 992px 
+=========================
+*/
+
+@media(min-width: 992px) {}
+
+
+/*
+=========================
+Max width 991px 
+=========================
+*/
+
+@media screen and (max-width: 991px) {
+    section#header-section.sticky .nav-section ul {
+        margin-top: 0px;
+    }
+    .logo-section img {
+        height: 70px;
+    }
+    .nav-section ul li.fb,
+    .nav-section ul li.insta {
+        display: inline-block;
+    }
+    .nav-section ul li.fb a,
+    .nav-section ul li.insta a {
+        padding: 15px 0px 15px 15px;
+        border: none;
+    }
+    .nav-section ul li {
+        display: block;
+    }
+    .nav-section ul li a {
+        padding: 20px 15px;
+        border-bottom: 1px solid #ddd;
+    }
+    .nav-section ul {
+        height: 100vh!important;
+        margin-left: -200%;
+        text-align: left;
+        transition: 0.5s;
+        position: absolute;
+        top: 0;
+        z-index: 11;
+        background: #fff;
+        width: 100%;
+        left: 0;
+        margin-top: 0;
+        padding-top: 20px;
+    }
+    .nav-section ul.active {
+        margin-left: 0%;
+    }
+    .fa-bars {
+        display: block;
+        right: 5%;
+    }
+    .fa-bars.active {
+        display: none;
+    }
+    .fa-times.active {
+        display: block;
+        z-index: 99;
+        right: 15px;
+        top: 20px;
+    }
+    .about-header-text {
+        margin-top: 70px;
+    }
+    .about-header-text h2 {
+        font-size: 25px;
+    }
+    .about-us-text ul {
+        padding: 0;
+        margin-top: 50px;
+    }
+    .payment img {
+        width: 50px;
+    }
+    .copyright p {
+        font-size: 15px;
+    }
+    /* Shopping page responsive */
+    #shopping-section h2 {
+        padding: 10px 0px;
+    }
+    .shopping-right-item {
+        margin-bottom: 2rem;
+    }
+    .shopping-left h3 {
+        font-size: 20px!important;
+    }
+    button.accordion-button {
+        padding: 10px;
+    }
+    /* About us page */
+    .about-us-text h2 {
+        font-size: 36px;
+    }
+    #about-us-section {
+        padding-top: 0px;
+    }
+    .about-us-right img {
+        margin-top: 50px;
+    }
+    /* Contact page responsive */
+    iframe {
+        height: 400px;
+        margin-top: 0px;
+    }
+    section#contact-us-section {
+        padding: 20px 0px;
+    }
+    section#contact-us-section h3 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+}
+
+
+/*
+=========================
+Max width 767px 
+=========================
+*/
+
+@media screen and (max-width: 767px) {
+    section#header-section.sticky .nav-section ul {
+        margin-top: 0px;
+    }
+    .logo-section img {
+        height: 70px;
+    }
+    .nav-section ul li.fb,
+    .nav-section ul li.insta {
+        display: inline-block;
+    }
+    .nav-section ul li.fb a,
+    .nav-section ul li.insta a {
+        padding: 15px 0px 15px 15px;
+        border: none;
+    }
+    .nav-section ul li {
+        display: block;
+    }
+    .nav-section ul li a {
+        padding: 20px 15px;
+        border-bottom: 1px solid #ddd;
+    }
+    .nav-section ul {
+        height: 100vh!important;
+        margin-left: -200%;
+        text-align: left;
+        transition: 0.5s;
+        position: absolute;
+        top: 0;
+        z-index: 11;
+        background: #fff;
+        width: 100%;
+        left: 0;
+        margin-top: 0;
+        padding-top: 20px;
+    }
+    .nav-section ul.active {
+        margin-left: 0%;
+    }
+    .fa-bars {
+        display: block;
+        right: 5%;
+    }
+    .fa-bars.active {
+        display: none;
+    }
+    .fa-times.active {
+        display: block;
+        z-index: 99;
+        right: 15px;
+        top: 20px;
+    }
+    .about-header-text {
+        margin-top: 70px;
+    }
+    .about-header-text h2 {
+        font-size: 25px;
+    }
+    .about-us-text ul {
+        padding: 0;
+        margin-top: 50px;
+    }
+    section#banner-section .owl-dots button.owl-dot {
+        width: 10px;
+        height: 10px;
+    }
+    section#banner-section .owl-dots {
+        bottom: 5px;
+    }
+    section#new-section {
+        margin-top: 48px;
+    }
+    .new-item {
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+    .new-item a {
+        margin-top: 5px;
+    }
+    .new-item h2 {
+        font-size: 36px;
+    }
+    .new-item p {
+        margin-bottom: 5px;
+    }
+    section#footer-section {
+        text-align: center!important;
+    }
+    .footer-top-item ul {
+        list-style: none;
+        padding: 0;
+    }
+    .footer-top-item h3 {
+        font-weight: 600;
+        margin-top: 15px;
+    }
+    .payment img {
+        width: inherit;
+    }
+    .payment {
+        text-align: center;
+        margin-top: 10px;
+    }
+    /* Shopping page responsive */
+    .shopping-item-img img {
+        width: 100%;
+        height: 100%;
+    }
+    #shopping-section h2 {
+        padding: 10px 0px;
+    }
+    .shopping-right-item {
+        margin-bottom: 1rem;
+    }
+    /* About us page */
+    .about-us-text h2 {
+        font-size: 36px;
+    }
+    #about-us-section {
+        padding-top: 0px;
+    }
+    .about-us-text ul {
+        font-size: 17px;
+    }
+    i.fas.fa-quote-right {
+        bottom: -35px;
+    }
+    .about-us-right img {
+        margin-top: 50px;
+    }
+    /* Contact page responsive */
+    iframe {
+        height: 300px;
+        margin-top: 0;
+    }
+    section#contact-us-section {
+        padding: 20px 0px;
+    }
+    section#contact-us-section h3 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+}
+
+
+/*
+=========================
+Max width 576px 
+=========================
+*/
+
+@media screen and (max-width: 575px) {
+    section#header-section.sticky .nav-section ul {
+        margin-top: 0px;
+    }
+    .logo-section img {
+        height: 70px;
+    }
+    .nav-section ul li.fb,
+    .nav-section ul li.insta {
+        display: inline-block;
+    }
+    .nav-section ul li.fb a,
+    .nav-section ul li.insta a {
+        padding: 15px 0px 15px 15px;
+        border: none;
+    }
+    .nav-section ul li {
+        display: block;
+    }
+    .nav-section ul li a {
+        padding: 20px 15px;
+        border-bottom: 1px solid #ddd;
+    }
+    .nav-section ul {
+        height: 100vh!important;
+        margin-left: -200%;
+        text-align: left;
+        transition: 0.5s;
+        position: absolute;
+        top: 0;
+        z-index: 11;
+        background: #fff;
+        width: 100%;
+        left: 0;
+        margin-top: 0;
+        padding-top: 20px;
+    }
+    .nav-section ul.active {
+        margin-left: 0%;
+    }
+    .fa-bars {
+        display: block;
+        right: 10px;
+    }
+    .fa-bars.active {
+        display: none;
+    }
+    .fa-times.active {
+        display: block;
+        z-index: 99;
+        right: 15px;
+        top: 20px;
+    }
+    .about-header-text {
+        margin-top: 70px;
+    }
+    .about-header-text h2 {
+        font-size: 25px;
+    }
+    .about-us-text ul {
+        padding: 0;
+        margin-top: 50px;
+    }
+    section#banner-section .owl-dots button.owl-dot {
+        width: 10px;
+        height: 10px;
+    }
+    section#banner-section .owl-dots {
+        bottom: 5px;
+    }
+    section#new-section {
+        margin-top: 48px;
+    }
+    .new-item {
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+    .new-item a {
+        margin-top: 5px;
+    }
+    .new-item h2 {
+        font-size: 36px;
+    }
+    .new-item p {
+        margin-bottom: 5px;
+    }
+    section#footer-section {
+        text-align: center!important;
+    }
+    .footer-top-item ul {
+        list-style: none;
+        padding: 0;
+    }
+    .footer-top-item h3 {
+        font-weight: 600;
+        margin-top: 15px;
+    }
+    .payment img {
+        width: 45px;
+    }
+    .payment {
+        text-align: center;
+        margin-top: 10px;
+    }
+    /* Shopping page responsive */
+    .shopping-item-img img {
+        width: 100%;
+        height: 100%;
+    }
+    #shopping-section h2 {
+        padding: 10px 0px;
+    }
+    .shopping-right-item {
+        margin-bottom: 1rem;
+    }
+    /* About us page */
+    .about-us-text h2 {
+        font-size: 36px;
+    }
+    #about-us-section {
+        padding-top: 0px;
+    }
+    .about-us-text ul {
+        font-size: 16px;
+    }
+    i.fas.fa-quote-right {
+        bottom: -35px;
+    }
+    .about-us-right img {
+        margin-top: 50px;
+    }
+    /* Contact page responsive */
+    iframe {
+        height: 300px;
+        margin-top: 0;
+    }
+    section#contact-us-section {
+        padding: 20px 0px;
+    }
+    section#contact-us-section h3 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+}

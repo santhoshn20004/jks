@@ -1,0 +1,607 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.8!important;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+section#header-section {
+    padding: 10px 0px;
+    background: #fff;
+    box-shadow: 0px 0px 10px #b1b1b1;
+    transition: 0.5s;
+}
+
+.logo-section img,
+.service-item img,
+.payment img,
+.welcome-right-text img,
+.footer-top-item a img {
+    width: inherit;
+}
+
+.logo-section img {
+    height: 100px;
+    transition: 0.5s;
+}
+
+.nav-section ul {
+    padding: 0;
+    list-style: none;
+    text-align: right;
+    margin-bottom: 0;
+    margin-top: 40px;
+    transition: 0.5s;
+}
+
+.nav-section ul li {
+    display: inline-block;
+}
+
+.nav-section ul li a {
+    padding: 0px 15px;
+    display: block;
+    color: #000;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.nav-section ul li a.active {
+    color: #7f7f7f;
+}
+
+.nav-section ul li:last-child a {
+    padding-right: 0px;
+}
+
+section#header-section.sticky {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+section#header-section.sticky .logo-section img {
+    height: 70px;
+}
+
+section#header-section.sticky .nav-section ul {
+    margin-top: 25px;
+}
+
+.fa-bars,
+.fa-times {
+    position: absolute;
+    right: 10px;
+    top: 35px;
+    font-size: 25px;
+    display: none;
+    cursor: pointer;
+}
+
+.new-item {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.new-item p {
+    margin-bottom: 10px;
+}
+
+.new-item h2 {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.new-item a {
+    color: #fff;
+    background: #000;
+    padding: 10px 60px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+
+/*
+==============
+Shop section css
+==============
+*/
+
+section#shop-section {
+    margin-top: 80px;
+}
+
+.shop-text h3 {
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+.shop-text a {
+    display: inline-block;
+    color: #444;
+    border-bottom: 1px solid #444;
+}
+
+.shop-text p {
+    text-align: left!important;
+    margin-bottom: 15px!important;
+}
+
+section#shop-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section#shop-section p {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+/*
+==============
+About us page section css
+==============
+*/
+
+section#about-section-header {
+    background: url(../img/breadcrumb_bg_image.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.about-header-text {
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.about-header-text a {
+    color: #fff;
+}
+
+#about-us-section {
+    width: 100%;
+    /* height: 700px; */
+    position: relative;
+    padding-top: 60px;
+}
+
+
+/* #about-us-section:after{
+    content: '';
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+} */
+
+.about-us-text {
+    text-align: center;
+    position: relative;
+}
+
+i.fas.fa-quote-left {
+    position: absolute;
+    top: 65px;
+    left: 0;
+}
+
+i.fas.fa-quote-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.about-us-text h2 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.about-us-text h2:after {
+    position: absolute;
+    content: '';
+    background: #000;
+    width: 150px;
+    height: 5px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.about-us-text p {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.about-us-text ul {
+    text-align: left;
+    font-size: 18px;
+    padding-top: 30px;
+    list-style: none;
+}
+
+.about-us-text ul li {
+    line-height: 1.7;
+}
+
+.about-us-right img {
+    margin-top: 50px;
+}
+
+
+/*
+==============
+Contact page section css
+==============
+*/
+
+section#contact-us-section {
+    padding: 50px 0px;
+}
+
+section#contact-us-section h3 {
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.contact-form input {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.contact-form textarea {
+    width: 100%;
+    text-indent: 4px;
+}
+
+.contact-form label {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.contact-form label span {
+    color: red;
+    margin-left: 3px;
+    display: inline-block;
+}
+
+button.btn.right {
+    width: 100%;
+    background: #444;
+    color: #fff;
+    font-size: 22px;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+button.btn.right:focus,
+.contact-form textarea:focus {
+    box-shadow: inherit;
+    outline: none;
+}
+
+
+/*
+==============
+Shopping page section css
+==============
+*/
+
+#shopping-section h2 {
+    text-align: center;
+    margin: 30px 0px;
+    padding: 30px 0px;
+    border-bottom: 1px solid #ddd;
+}
+
+.categories {
+    margin-bottom: 30px;
+}
+
+.accordion-item h2 {
+    padding: 0px!important;
+    margin: 0px!important;
+}
+
+.accordion-item button:focus {
+    outline: none!important;
+    box-shadow: inherit!important;
+    background: transparent!important;
+    border: none;
+}
+
+.accordion-body ul {
+    padding: 0;
+    list-style: none;
+}
+
+.accordion-body ul input {
+    width: inherit;
+    margin-right: 15px;
+}
+
+.accordion-body ul li a {
+    color: #444;
+    font-size: 14px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #444;
+    background-color: #fff;
+}
+
+.shopping-left {
+    position: sticky;
+    top: 100px;
+}
+
+.shopping-right-item {
+    border: 1px solid #ddd;
+    transition: 0.5s;
+}
+
+.shopping-right-item:hover {
+    box-shadow: 0px 0px 5px #b5b0b0;
+}
+
+.shopping-item-text {
+    padding: 10px;
+}
+
+.shopping-item-img img {
+    width: 100%;
+    height: 380px;
+}
+
+.shopping-item-img {
+    position: relative;
+    border-bottom: 1px solid #ddd;
+}
+
+img.hide {
+    /* display: none; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    transition: 0.3s;
+}
+
+.shopping-right-item:hover img.hide {
+    /* display: block; */
+    width: 100%;
+}
+
+.shopping-item-text h3 {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.shopping-item-text a {
+    color: #000;
+}
+
+.shopping-item-text>p {
+    display: inline-block;
+    color: #734525;
+    font-size: 25px;
+}
+
+a.add-cart {
+    background: #000;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+
+/* .shopping-right-item:hover a.add-cart{
+    opacity: 1;
+    visibility: visible;
+} */
+
+span.star {
+    display: block;
+    color: #ffa621;
+    margin-bottom: 10px;
+}
+
+.shopping-item-text a p {
+    margin-bottom: 5px;
+}
+
+.see-more- {
+    text-align: center;
+    margin-top: 50px;
+}
+
+button.more-btn {
+    border: 1px solid #030303;
+    padding: 10px 25px;
+    border-radius: 5px;
+    background: #030303;
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    transition: 0.3s ease-out;
+}
+
+button.more-btn:hover {
+    background: transparent;
+    color: #030303;
+}
+
+
+/*
+==============
+Footer section css
+==============
+*/
+
+.footer-top {
+    background: rgb(255, 0, 0);
+    padding: 60px 0px;
+}
+
+.first-footer-p {
+    margin-top: 25px;
+}
+
+.footer-top-item ul {
+    padding: 20px;
+}
+
+.footer-top-item ul li a {
+    color: #000;
+    font-size: 18px;
+    display: block;
+    padding: 5px 0px;
+}
+
+.follow-us a {
+    background: #fff;
+    color: #000;
+    padding: 5px 12px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.follow-us a:hover {
+    background: #000;
+    color: #fff!important;
+}
+
+.footer-bottom {
+    background: #000;
+    color: #fff;
+    padding: 20px 0px;
+}
+
+.copyright p {
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.payment {
+    text-align: right;
+}
+
+.ship-item ul li,
+.about-us-text ul li {
+    margin-bottom: 20px;
+}
+
+.ship-item ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 35px;
+}
+
+
+/*
+===========================
+scroll to top 
+===========================
+*/
+
+.scrollToTop {
+    width: 50px;
+    height: 50px;
+    color: #ffffff;
+    z-index: 999;
+    bottom: 25px;
+    right: 25px;
+    position: fixed;
+    -webkit-transform: translateY(150px);
+    -ms-transform: translateY(150px);
+    transform: translateY(150px);
+    background: #636262;
+    text-align: center;
+    font-size: 16px;
+}
+
+.scrollToTop:hover {
+    opacity: 1!important;
+}
+
+.scrollToTop.active {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    animation: bounceInDown 2s;
+    -webkit-animation: bounceInDown 2s;
+    -moz-animation: bounceInDown 2s;
+}
+
+@keyframes bounceInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-2000px);
+        transform: translateY(-2000px)
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: translateY(30px);
+        transform: translateY(30px)
+    }
+    80% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px)
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+.bounceInDown {
+    -webkit-animation-name: bounceInDown;
+    animation-name: bounceInDown
+}
+
+.fa-angle-up {
+    color: #fff;
+    font-size: 30px;
+    line-height: 1.7;
+}
+
+
+/*
+==================================
+Scroll to top css end
+===================================
+*/
